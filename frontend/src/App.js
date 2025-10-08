@@ -38,6 +38,7 @@ function App() {
           <Route path="/" element={<LandingPage />} />
           <Route path="/baby-buys" element={<BabyBuysCalculator />} />
           <Route path="/dashboard" element={<BotToolsDashboard />} />
+          <Route path="/ui-showcase" element={<UIShowcase />} />
         </Routes>
       </BrowserRouter>
     </div>
