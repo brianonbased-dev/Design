@@ -15,7 +15,7 @@ export const HeroSection = () => {
         <div className="flex flex-col items-center space-y-8 sm:space-y-12">
           {/* Video Section */}
           <div className="w-full max-w-4xl animate-fade-in-up">
-            <div className="relative rounded-2xl overflow-hidden border border-border shadow-2xl">
+            <div className="relative rounded-2xl overflow-hidden shadow-2xl">
               <video 
                 src="https://customer-assets.emergentagent.com/job_designer-handoff/artifacts/ed1fcxn7_lv_0_20251005233322.mp4"
                 autoPlay
