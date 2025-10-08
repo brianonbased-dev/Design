@@ -58,7 +58,7 @@ export const FinalCTA = () => {
 
           {/* Trust line */}
           <p className="text-sm text-muted-foreground pt-4">
-            Powered by $BRIAN • Trusted by 2,000+ projects • $5M+ locked in pools
+            Powered by $BRIAN • 2,000+ tokens gaining visibility • $5M+ locked in pools
           </p>
         </div>
       </div>
