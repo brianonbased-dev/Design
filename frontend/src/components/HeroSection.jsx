@@ -14,7 +14,7 @@ export const HeroSection = () => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 pt-20 sm:pt-24 relative z-10">
         <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center">
           {/* Left: Content */}
-          <div className="text-center lg:text-left space-y-6 sm:space-y-8 animate-fade-in-up">
+          <div className="text-left space-y-6 sm:space-y-8 animate-fade-in-up">
             {/* Badge */}
             <div className="inline-flex items-center space-x-2 bg-card/50 backdrop-blur-sm border border-primary/30 rounded-full px-4 py-2 animate-pulse-glow">
               <Sparkles className="w-4 h-4 text-primary" />
@@ -28,12 +28,12 @@ export const HeroSection = () => {
             </h1>
 
             {/* Subheadline */}
-            <p className="text-lg sm:text-xl text-muted-foreground leading-relaxed max-w-2xl mx-auto lg:mx-0">
+            <p className="text-lg sm:text-xl text-muted-foreground leading-relaxed max-w-2xl">
               Infinitus helps tokens gain visibility across DeFi platforms. Create buying pressure with Baby Buys, build credibility with professional charts, and earn yield by locking liquidity.
             </p>
 
             {/* CTA Buttons */}
-            <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start animate-fade-in-up animate-delay-200">
+            <div className="flex flex-col sm:flex-row gap-4 animate-fade-in-up animate-delay-200">
               <Button 
                 size="lg" 
                 className="bg-primary text-primary-foreground hover:bg-primary/90 hover:scale-105 font-bold text-base sm:text-lg tracking-wide px-8 py-6 sm:py-7 animate-pulse-glow transition-transform"
@@ -51,16 +51,16 @@ export const HeroSection = () => {
             </div>
 
             {/* Trust indicators */}
-            <div className="flex flex-wrap items-center justify-center lg:justify-start gap-6 pt-4 text-sm text-muted-foreground animate-fade-in-up animate-delay-300">
-              <div className="flex items-center space-x-2">
-                <div className="w-5 h-5 bg-primary rounded-full flex items-center justify-center">
-                  <span className="text-primary-foreground text-xs">✓</span>
+            <div className="flex flex-col gap-3 pt-4 text-base text-muted-foreground animate-fade-in-up animate-delay-300">
+              <div className="flex items-center space-x-3">
+                <div className="w-6 h-6 bg-primary rounded-full flex items-center justify-center flex-shrink-0">
+                  <span className="text-primary-foreground text-sm">✓</span>
                 </div>
                 <span>No Credit Card Required</span>
               </div>
-              <div className="flex items-center space-x-2">
-                <div className="w-5 h-5 bg-primary rounded-full flex items-center justify-center">
-                  <span className="text-primary-foreground text-xs">✓</span>
+              <div className="flex items-center space-x-3">
+                <div className="w-6 h-6 bg-primary rounded-full flex items-center justify-center flex-shrink-0">
+                  <span className="text-primary-foreground text-sm">✓</span>
                 </div>
                 <span>2,000+ Tokens Promoted</span>
               </div>
