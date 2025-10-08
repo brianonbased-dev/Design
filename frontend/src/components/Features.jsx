@@ -23,11 +23,11 @@ export const Features = () => {
     },
     {
       icon: Wallet,
-      title: 'Smart Pooling',
-      description: 'Lock your tokens in liquidity pools to earn passive yield. Boost community confidence by showing commitment while generating real returns. Win-win for holders and projects.',
-      benefits: ['Earn Yield', 'Build Confidence', 'Lock & Earn'],
+      title: 'Boost Your Chart!',
+      description: 'Build credibility by locking up liquidity. Show the market your token has real backing and commitment. Locked liquidity = trust = higher chart positions and more visibility.',
+      benefits: ['Build Credibility', 'Lock Liquidity', 'Boost Trust'],
       color: 'primary',
-      investment: 'Earning Tool - Lock to Earn'
+      investment: 'Credibility Tool - Lock to Boost'
     }
   ];
 
