@@ -9,14 +9,18 @@ export const StickyFooterCTA = () => {
   useEffect(() => {
     const handleScroll = () => {
       // Show sticky CTA after scrolling 500px and if not dismissed
-      if (window.scrollY > 500 && !isDismissed) {
+      const scrollPosition = window.scrollY || window.pageYOffset;
+      if (scrollPosition > 500 && !isDismissed) {
         setIsVisible(true);
-      } else if (window.scrollY <= 500) {
+      } else if (scrollPosition <= 500) {
         setIsVisible(false);
       }
     };
 
-    window.addEventListener('scroll', handleScroll);
+    // Call once on mount to check initial position
+    handleScroll();
+    
+    window.addEventListener('scroll', handleScroll, { passive: true });
     return () => window.removeEventListener('scroll', handleScroll);
   }, [isDismissed]);
 
