@@ -265,13 +265,8 @@ metadata:
   run_ui: true
 
 test_plan:
-  current_focus:
-    - "Social Proof/Testimonials Testing"
-    - "Sticky Footer CTA Testing"
-    - "Hero Section Testing"
-  stuck_tasks:
-    - "Social Proof/Testimonials Testing"
-    - "Sticky Footer CTA Testing"
+  current_focus: []
+  stuck_tasks: []
   test_all: true
   test_priority: "high_first"
 
