@@ -12,6 +12,7 @@ import { Footer } from "@/components/Footer";
 import { StickyFooterCTA } from "@/components/StickyFooterCTA";
 import BabyBuysCalculator from "@/pages/BabyBuysCalculator";
 import BotToolsDashboard from "@/pages/BotToolsDashboard";
+import UIShowcase from "@/pages/UIShowcase";
 
 const LandingPage = () => {
   return (
