@@ -37,7 +37,7 @@ export const StickyFooterCTA = () => {
                 Ready to make your token trend?
               </div>
               <div className="text-xs sm:text-sm text-muted-foreground">
-                Join 2,000+ projects using $BRIAN tools
+                Join 2,000+ tokens gaining visibility with $BRIAN
               </div>
             </div>
 
