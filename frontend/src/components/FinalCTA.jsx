@@ -16,7 +16,7 @@ export const FinalCTA = () => {
           {/* Badge */}
           <div className="inline-flex items-center space-x-2 bg-card/50 backdrop-blur-sm border border-primary/30 rounded-full px-4 py-2">
             <Clock className="w-4 h-4 text-primary" />
-            <span className="text-sm font-medium text-foreground">Limited $BRIAN Early Access</span>
+            <span className="text-sm font-medium text-foreground">$BRIAN Early Access</span>
           </div>
 
           {/* Headline */}
