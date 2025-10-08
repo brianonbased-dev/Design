@@ -33,7 +33,7 @@ export const HeroSection = () => {
             </p>
 
             {/* CTA Buttons */}
-            <div className="flex flex-col sm:flex-row gap-4 w-full justify-center lg:justify-start animate-fade-in-up animate-delay-200">
+            <div className="flex flex-col sm:flex-row gap-4 w-full justify-center animate-fade-in-up animate-delay-200">
               <Button 
                 size="lg" 
                 className="bg-primary text-primary-foreground hover:bg-primary/90 hover:scale-105 font-bold text-base sm:text-lg tracking-wide px-8 py-6 sm:py-7 animate-pulse-glow transition-transform w-full sm:w-auto"
