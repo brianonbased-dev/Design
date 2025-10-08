@@ -81,17 +81,6 @@ export const HeroSection = () => {
               {/* Overlay gradient */}
               <div className="absolute inset-0 bg-gradient-to-t from-background/80 to-transparent"></div>
             </div>
-            
-            {/* Floating stat cards */}
-            <div className="absolute -bottom-6 -left-6 bg-card border border-primary/50 rounded-xl p-4 shadow-xl animate-pulse-glow hidden sm:block" data-testid="hero-roi-card">
-              <div className="text-2xl font-bold text-primary">500%</div>
-              <div className="text-sm text-muted-foreground">Avg Token Growth</div>
-            </div>
-            
-            <div className="absolute -top-6 -right-6 bg-card border border-accent/50 rounded-xl p-4 shadow-xl animate-pulse hidden sm:block" style={{animationDelay: '0.5s'}} data-testid="hero-24-7-card">
-              <div className="text-2xl font-bold text-accent">24/7</div>
-              <div className="text-sm text-muted-foreground">Visibility Boost</div>
-            </div>
           </div>
         </div>
       </div>
