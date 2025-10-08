@@ -26,7 +26,7 @@ export const FinalCTA = () => {
 
           {/* Description */}
           <p className="text-lg sm:text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-            Join 2,000+ DeFi projects using Infinitus to gain visibility, build confidence, and grow their communities. Start promoting today—free trial included.
+            Join 2,000+ tokens using Infinitus to gain visibility, dominate trending lists, and build unstoppable momentum. Start promoting today—free trial included.
           </p>
 
           {/* Features list */}
