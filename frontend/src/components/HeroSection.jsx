@@ -70,9 +70,12 @@ export const HeroSection = () => {
           {/* Right: Image/Visual */}
           <div className="relative animate-fade-in-up animate-delay-100">
             <div className="relative rounded-2xl overflow-hidden border border-border shadow-2xl">
-              <img 
-                src="https://images.unsplash.com/photo-1634542984003-e0fb8e200e91?w=800&h=600&fit=crop"
-                alt="DeFi Trending Dashboard"
+              <video 
+                src="https://customer-assets.emergentagent.com/job_designer-handoff/artifacts/ed1fcxn7_lv_0_20251005233322.mp4"
+                autoPlay
+                loop
+                muted
+                playsInline
                 className="w-full h-auto object-cover"
               />
               {/* Overlay gradient */}
