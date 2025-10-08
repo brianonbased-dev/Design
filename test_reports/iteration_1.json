@@ -1,0 +1,232 @@
+{
+  "test_run_info": {
+    "timestamp": "2025-10-08T04:45:07.774959",
+    "page_url": "http://localhost:3000",
+    "viewport": "1920x1080",
+    "test_iteration": 1
+  },
+  "test_categories": {
+    "navigation": {
+      "features_scroll": {
+        "status": "PASS",
+        "message": "Features link clicked successfully"
+      },
+      "how_it_works_scroll": {
+        "status": "PASS",
+        "message": "How It Works link clicked successfully"
+      },
+      "testimonials_scroll": {
+        "status": "PASS",
+        "message": "Testimonials link clicked successfully"
+      },
+      "launch_bot_nav": {
+        "status": "PASS",
+        "message": "LAUNCH BOT button is clickable"
+      },
+      "mobile_menu_open": {
+        "status": "PASS",
+        "message": "Mobile menu opened successfully"
+      },
+      "mobile_menu_close": {
+        "status": "PASS",
+        "message": "Mobile menu closed successfully"
+      },
+      "sticky_nav": {
+        "status": "PASS",
+        "message": "Navigation becomes sticky on scroll"
+      }
+    },
+    "hero_section": {
+      "hero_title": {
+        "status": "PASS",
+        "message": "Hero title is visible and properly formatted"
+      },
+      "start_free_button": {
+        "status": "PASS",
+        "message": "START FREE button is clickable"
+      },
+      "watch_demo_button": {
+        "status": "PASS",
+        "message": "Watch Demo button is clickable"
+      },
+      "hero_image": {
+        "status": "PASS",
+        "message": "Hero image loads and displays correctly"
+      },
+      "roi_stat_card": {
+        "status": "PASS",
+        "message": "+127% ROI stat card is visible"
+      },
+      "error": {
+        "status": "FAIL",
+        "message": "Hero section testing error: Locator.wait_for: Error: strict mode violation: locator(\"text=\\\"24/7\\\"\") resolved to 2 elements:\n    1) <div class=\"text-2xl font-bold text-accent\">24/7</div> aka get_by_text(\"24/7\", exact=True).first\n    2) <div class=\"text-2xl sm:text-3xl font-bold text-primary mb-1\">24/7</div> aka locator(\"#how-it-works\").get_by_text(\"24/7\", exact=True)\n\nCall log:\n  - waiting for locator(\"text=\\\"24/7\\\"\") to be visible\n"
+      }
+    },
+    "trust_bar": {
+      "partner_count": {
+        "status": "PASS",
+        "message": "Found 5/5 partner logos"
+      },
+      "hover_effects": {
+        "status": "PASS",
+        "message": "Hover effects on partner logos work"
+      }
+    },
+    "testimonials": {
+      "error": {
+        "status": "FAIL",
+        "message": "Testimonials testing error: Locator.click: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator(\"button\").filter(has=locator(\"svg\")).first\n    - locator resolved to <button class=\"md:hidden text-foreground\">\u2026</button>\n  - attempting click action\n    2 \u00d7 waiting for element to be visible, enabled and stable\n      - element is not visible\n    - retrying click action\n    - waiting 20ms\n    2 \u00d7 waiting for element to be visible, enabled and stable\n      - element is not visible\n    - retrying click action\n      - waiting 100ms\n    56 \u00d7 waiting for element to be visible, enabled and stable\n       - element is not visible\n     - retrying click action\n       - waiting 500ms\n"
+      }
+    },
+    "features": {
+      "card_hover": {
+        "status": "PASS",
+        "message": "Feature card hover effects work"
+      },
+      "baby_buys_button": {
+        "status": "PASS",
+        "message": "Baby Buys 'Try This Feature' button is clickable"
+      },
+      "chart_builder_button": {
+        "status": "PASS",
+        "message": "Chart Builder 'Try This Feature' button is clickable"
+      },
+      "smart_pooling_button": {
+        "status": "PASS",
+        "message": "Smart Pooling 'Try This Feature' button is clickable"
+      },
+      "get_started_button": {
+        "status": "PASS",
+        "message": "Get Started Now button is clickable"
+      },
+      "icons_display": {
+        "status": "PASS",
+        "message": "All feature icons display correctly"
+      }
+    },
+    "how_it_works": {
+      "step_numbers": {
+        "status": "PASS",
+        "message": "Found 3/3 step numbers"
+      },
+      "step_icons": {
+        "status": "PASS",
+        "message": "All step icons are visible"
+      },
+      "stat_cards": {
+        "status": "PASS",
+        "message": "Found 4/4 stat cards"
+      }
+    },
+    "final_cta": {
+      "start_free_final": {
+        "status": "PASS",
+        "message": "START FREE NOW button is clickable"
+      },
+      "background_animations": {
+        "status": "PASS",
+        "message": "Background animations and glows are present"
+      }
+    },
+    "footer": {
+      "telegram_link": {
+        "status": "PASS",
+        "message": "Telegram icon has correct href"
+      },
+      "twitter_link": {
+        "status": "PASS",
+        "message": "Twitter icon is clickable"
+      },
+      "github_link": {
+        "status": "PASS",
+        "message": "GitHub icon is clickable"
+      },
+      "product_links": {
+        "status": "PASS",
+        "message": "Product links are present"
+      },
+      "company_links": {
+        "status": "PASS",
+        "message": "Company links are present"
+      },
+      "resources_links": {
+        "status": "PASS",
+        "message": "Resources links are present"
+      },
+      "brand_logo": {
+        "status": "PASS",
+        "message": "Infinitus logo and brand name are visible"
+      }
+    },
+    "sticky_footer": {
+      "error": {
+        "status": "FAIL",
+        "message": "Sticky footer testing error: Locator.wait_for: Timeout 5000ms exceeded.\nCall log:\n  - waiting for locator(\"text=\\\"Ready to start trading smarter?\\\"\") to be visible\n"
+      }
+    },
+    "responsive": {
+      "mobile_layout": {
+        "status": "PASS",
+        "message": "Mobile layout (375px) adjusts properly"
+      },
+      "tablet_layout": {
+        "status": "PASS",
+        "message": "Tablet layout (768px) adjusts properly"
+      },
+      "desktop_layout": {
+        "status": "PASS",
+        "message": "Desktop layout (1920px) displays correctly"
+      },
+      "mobile_menu": {
+        "status": "PASS",
+        "message": "Mobile menu works on mobile sizes"
+      }
+    },
+    "animations": {
+      "fade_in_animations": {
+        "status": "PASS",
+        "message": "Fade-in animations trigger on scroll"
+      },
+      "pulse_glow": {
+        "status": "PASS",
+        "message": "Pulsing glow effects on CTA buttons are present"
+      },
+      "smooth_scrolling": {
+        "status": "PASS",
+        "message": "Smooth scrolling behavior works"
+      },
+      "card_hover_transform": {
+        "status": "PASS",
+        "message": "Card hover transform effects work"
+      }
+    },
+    "visual_styling": {
+      "neon_green_ctas": {
+        "status": "PASS",
+        "message": "Neon green color on primary CTAs is present"
+      },
+      "electric_cyan": {
+        "status": "PASS",
+        "message": "Electric cyan color on secondary elements is present"
+      },
+      "dark_theme": {
+        "status": "PASS",
+        "message": "Dark background theme is applied"
+      },
+      "gradient_text_effects": {
+        "status": "PASS",
+        "message": "Gradient text effects are visible"
+      },
+      "border_glows": {
+        "status": "PASS",
+        "message": "Border glows on cards are present"
+      }
+    }
+  },
+  "summary": {
+    "total_tests": 48,
+    "passed_tests": 45,
+    "failed_tests": 3,
+    "success_rate": "93.8%"
+  }
+}
