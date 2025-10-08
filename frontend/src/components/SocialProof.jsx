@@ -60,10 +60,10 @@ export const SocialProof = () => {
         {/* Section Header */}
         <div className="text-center mb-12 sm:mb-16 space-y-4 animate-fade-in-up">
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-black text-foreground">
-            Trusted by <span className="gradient-text">2,000+ Projects</span>
+            <span className="gradient-text">2,000+ Tokens</span> Gaining Visibility
           </h2>
           <p className="text-lg sm:text-xl text-muted-foreground max-w-2xl mx-auto">
-            Real projects, real growth. See what DeFi builders are saying.
+            Real tokens, real visibility. See the results from tokens using Infinitus.
           </p>
         </div>
 
