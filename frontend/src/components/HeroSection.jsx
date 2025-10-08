@@ -14,7 +14,7 @@ export const HeroSection = () => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 pt-20 sm:pt-24 relative z-10">
         <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center">
           {/* Left: Content */}
-          <div className="text-center lg:text-left space-y-6 sm:space-y-8 animate-fade-in-up flex flex-col items-center lg:items-start">
+          <div className="text-center space-y-6 sm:space-y-8 animate-fade-in-up flex flex-col items-center">
             {/* Badge */}
             <div className="inline-flex items-center space-x-2 bg-card/50 backdrop-blur-sm border border-primary/30 rounded-full px-4 py-2 animate-pulse-glow">
               <Sparkles className="w-4 h-4 text-primary" />
