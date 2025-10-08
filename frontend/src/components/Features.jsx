@@ -37,10 +37,10 @@ export const Features = () => {
         {/* Section Header */}
         <div className="text-center mb-12 sm:mb-16 space-y-4 animate-fade-in-up">
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-black text-foreground">
-            Powerful Tools for <span className="gradient-text">Token Growth</span>
+            Powerful Tools for <span className="gradient-text">Token Visibility</span>
           </h2>
           <p className="text-lg sm:text-xl text-muted-foreground max-w-2xl mx-auto">
-            Everything you need to promote your token, build community confidence, and earn rewards.
+            Everything you need to make your token trend, build credibility, and earn rewards.
           </p>
         </div>
 
