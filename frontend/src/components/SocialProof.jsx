@@ -118,16 +118,18 @@ export const SocialProof = () => {
           <Button
             variant="outline"
             size="icon"
-            className="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-4 sm:-translate-x-12 border-accent text-accent hover:bg-accent/10"
+            className="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-4 sm:-translate-x-12 border-accent text-accent hover:bg-accent/10 z-20"
             onClick={prevTestimonial}
+            aria-label="Previous testimonial"
           >
             <ChevronLeft className="w-5 h-5" />
           </Button>
           <Button
             variant="outline"
             size="icon"
-            className="absolute right-0 top-1/2 -translate-y-1/2 translate-x-4 sm:translate-x-12 border-accent text-accent hover:bg-accent/10"
+            className="absolute right-0 top-1/2 -translate-y-1/2 translate-x-4 sm:translate-x-12 border-accent text-accent hover:bg-accent/10 z-20"
             onClick={nextTestimonial}
+            aria-label="Next testimonial"
           >
             <ChevronRight className="w-5 h-5" />
           </Button>
