@@ -7,8 +7,8 @@ export const HowItWorks = () => {
     {
       step: 1,
       icon: UserPlus,
-      title: 'Connect Your Wallet',
-      description: 'Link your wallet with your $BRIAN tokens. Support for MetaMask, Trust Wallet, and all major Web3 wallets.',
+      title: 'Create Your Wallet',
+      description: 'Create your wallet on Telegram to gain access to these professional tools. Quick setup connects you to $BRIAN-powered visibility features instantly.',
       color: 'primary'
     },
     {
