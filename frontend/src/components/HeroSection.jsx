@@ -1,0 +1,97 @@
+import React from 'react';
+import { Button } from '@/components/ui/button';
+import { ArrowRight, Sparkles } from 'lucide-react';
+
+export const HeroSection = () => {
+  return (
+    <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-hero">
+      {/* Animated background elements */}
+      <div className="absolute inset-0 overflow-hidden">
+        <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-primary/10 rounded-full blur-3xl animate-pulse"></div>
+        <div className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-accent/10 rounded-full blur-3xl animate-pulse" style={{animationDelay: '1s'}}></div>
+      </div>
+
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8 pt-20 sm:pt-24 relative z-10">
+        <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center">
+          {/* Left: Content */}
+          <div className="text-center lg:text-left space-y-6 sm:space-y-8 animate-fade-in-up">
+            {/* Badge */}
+            <div className="inline-flex items-center space-x-2 bg-card/50 backdrop-blur-sm border border-primary/30 rounded-full px-4 py-2 animate-pulse-glow">
+              <Sparkles className="w-4 h-4 text-primary" />
+              <span className="text-sm font-medium text-foreground">AI-Powered Trading</span>
+            </div>
+
+            {/* Headline */}
+            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-black leading-tight tracking-tight">
+              <span className="text-foreground">Trade Smarter with</span>{' '}
+              <span className="gradient-text text-glow-green">AI Automation</span>
+            </h1>
+
+            {/* Subheadline */}
+            <p className="text-lg sm:text-xl text-muted-foreground leading-relaxed max-w-2xl mx-auto lg:mx-0">
+              Infinitusbot executes winning crypto trades 24/7. Advanced AI analyzes markets, identifies opportunities, and executes trades while you sleep.
+            </p>
+
+            {/* CTA Buttons */}
+            <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start animate-fade-in-up animate-delay-200">
+              <Button 
+                size="lg" 
+                className="bg-primary text-primary-foreground hover:bg-primary/90 hover:scale-105 font-bold text-base sm:text-lg tracking-wide px-8 py-6 sm:py-7 animate-pulse-glow transition-transform"
+              >
+                START FREE - NO CREDIT CARD
+                <ArrowRight className="ml-2 w-5 h-5" />
+              </Button>
+              <Button 
+                size="lg" 
+                variant="outline" 
+                className="border-2 border-accent text-accent hover:bg-accent/10 font-semibold text-base sm:text-lg px-8 py-6 sm:py-7 transition-all"
+              >
+                Watch Demo
+              </Button>
+            </div>
+
+            {/* Trust indicators */}
+            <div className="flex flex-wrap items-center justify-center lg:justify-start gap-6 pt-4 text-sm text-muted-foreground animate-fade-in-up animate-delay-300">
+              <div className="flex items-center space-x-2">
+                <div className="w-5 h-5 bg-primary rounded-full flex items-center justify-center">
+                  <span className="text-primary-foreground text-xs">✓</span>
+                </div>
+                <span>No Credit Card Required</span>
+              </div>
+              <div className="flex items-center space-x-2">
+                <div className="w-5 h-5 bg-primary rounded-full flex items-center justify-center">
+                  <span className="text-primary-foreground text-xs">✓</span>
+                </div>
+                <span>5,000+ Active Traders</span>
+              </div>
+            </div>
+          </div>
+
+          {/* Right: Image/Visual */}
+          <div className="relative animate-fade-in-up animate-delay-100">
+            <div className="relative rounded-2xl overflow-hidden border border-border shadow-2xl">
+              <img 
+                src="https://images.unsplash.com/photo-1634542984003-e0fb8e200e91?w=800&h=600&fit=crop"
+                alt="Trading Dashboard"
+                className="w-full h-auto object-cover"
+              />
+              {/* Overlay gradient */}
+              <div className="absolute inset-0 bg-gradient-to-t from-background/80 to-transparent"></div>
+            </div>
+            
+            {/* Floating stat cards */}
+            <div className="absolute -bottom-6 -left-6 bg-card border border-primary/50 rounded-xl p-4 shadow-xl animate-pulse-glow hidden sm:block">
+              <div className="text-2xl font-bold text-primary">+127%</div>
+              <div className="text-sm text-muted-foreground">Average ROI</div>
+            </div>
+            
+            <div className="absolute -top-6 -right-6 bg-card border border-accent/50 rounded-xl p-4 shadow-xl animate-pulse hidden sm:block" style={{animationDelay: '0.5s'}}>
+              <div className="text-2xl font-bold text-accent">24/7</div>
+              <div className="text-sm text-muted-foreground">Auto Trading</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+};
