@@ -4,7 +4,7 @@ import { ArrowRight, Sparkles } from 'lucide-react';
 
 export const HeroSection = () => {
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-hero">
+    <section className="relative min-h-screen overflow-hidden bg-gradient-hero">
       {/* Animated background elements */}
       <div className="absolute inset-0 overflow-hidden">
         <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-primary/10 rounded-full blur-3xl animate-pulse"></div>
@@ -12,9 +12,25 @@ export const HeroSection = () => {
       </div>
 
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 pt-20 sm:pt-24 relative z-10">
-        <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center">
-          {/* Left: Content */}
-          <div className="text-center space-y-6 sm:space-y-8 animate-fade-in-up flex flex-col items-center">
+        <div className="flex flex-col items-center space-y-8 sm:space-y-12">
+          {/* Video Section */}
+          <div className="w-full max-w-4xl animate-fade-in-up">
+            <div className="relative rounded-2xl overflow-hidden border border-border shadow-2xl">
+              <video 
+                src="https://customer-assets.emergentagent.com/job_designer-handoff/artifacts/ed1fcxn7_lv_0_20251005233322.mp4"
+                autoPlay
+                loop
+                muted
+                playsInline
+                className="w-full h-auto object-cover"
+              />
+              {/* Overlay gradient */}
+              <div className="absolute inset-0 bg-gradient-to-t from-background/80 to-transparent"></div>
+            </div>
+          </div>
+
+          {/* Content Section */}
+          <div className="text-center space-y-6 sm:space-y-8 animate-fade-in-up animate-delay-100 flex flex-col items-center max-w-4xl">
             {/* Badge */}
             <div className="inline-flex items-center space-x-2 bg-card/50 backdrop-blur-sm border border-primary/30 rounded-full px-4 py-2 animate-pulse-glow">
               <Sparkles className="w-4 h-4 text-primary" />
@@ -64,22 +80,6 @@ export const HeroSection = () => {
                 </div>
                 <span>2,000+ Tokens Promoted</span>
               </div>
-            </div>
-          </div>
-
-          {/* Right: Image/Visual */}
-          <div className="relative animate-fade-in-up animate-delay-100">
-            <div className="relative rounded-2xl overflow-hidden border border-border shadow-2xl">
-              <video 
-                src="https://customer-assets.emergentagent.com/job_designer-handoff/artifacts/ed1fcxn7_lv_0_20251005233322.mp4"
-                autoPlay
-                loop
-                muted
-                playsInline
-                className="w-full h-auto object-cover"
-              />
-              {/* Overlay gradient */}
-              <div className="absolute inset-0 bg-gradient-to-t from-background/80 to-transparent"></div>
             </div>
           </div>
         </div>
