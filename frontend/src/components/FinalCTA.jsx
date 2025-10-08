@@ -16,32 +16,32 @@ export const FinalCTA = () => {
           {/* Badge */}
           <div className="inline-flex items-center space-x-2 bg-card/50 backdrop-blur-sm border border-primary/30 rounded-full px-4 py-2">
             <Clock className="w-4 h-4 text-primary" />
-            <span className="text-sm font-medium text-foreground">Limited Beta Access</span>
+            <span className="text-sm font-medium text-foreground">Limited $BRIAN Early Access</span>
           </div>
 
           {/* Headline */}
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-black text-foreground leading-tight">
-            Ready to <span className="gradient-text text-glow-green">Transform Your Trading?</span>
+            Ready to <span className="gradient-text text-glow-green">Make Your Token Trend?</span>
           </h2>
 
           {/* Description */}
           <p className="text-lg sm:text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-            Join thousands of traders who are already using AI to maximize their crypto profits. Start your journey today—no credit card required.
+            Join 2,000+ DeFi projects using Infinitus to gain visibility, build confidence, and grow their communities. Start promoting today—free trial included.
           </p>
 
           {/* Features list */}
           <div className="flex flex-wrap justify-center gap-6 text-sm sm:text-base text-muted-foreground">
             <div className="flex items-center space-x-2">
               <Sparkles className="w-5 h-5 text-primary" />
-              <span>Free to start</span>
+              <span>Free trial included</span>
             </div>
             <div className="flex items-center space-x-2">
               <Sparkles className="w-5 h-5 text-accent" />
-              <span>No credit card</span>
+              <span>No credit card needed</span>
             </div>
             <div className="flex items-center space-x-2">
               <Sparkles className="w-5 h-5 text-primary" />
-              <span>Setup in 5 minutes</span>
+              <span>Results in 24 hours</span>
             </div>
           </div>
 
@@ -51,14 +51,14 @@ export const FinalCTA = () => {
               size="lg"
               className="bg-primary text-primary-foreground hover:bg-primary/90 hover:scale-105 font-bold text-base sm:text-lg tracking-wide px-12 py-7 animate-pulse-glow transition-all text-center"
             >
-              START FREE NOW
+              START PROMOTING NOW
               <ArrowRight className="ml-2 w-5 h-5" />
             </Button>
           </div>
 
           {/* Trust line */}
           <p className="text-sm text-muted-foreground pt-4">
-            Join 5,000+ traders already using Infinitus • $50M+ in trading volume
+            Powered by $BRIAN • Trusted by 2,000+ projects • $5M+ locked in pools
           </p>
         </div>
       </div>

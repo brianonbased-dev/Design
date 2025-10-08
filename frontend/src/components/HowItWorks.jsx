@@ -8,21 +8,21 @@ export const HowItWorks = () => {
       step: 1,
       icon: UserPlus,
       title: 'Connect Your Wallet',
-      description: 'Link your crypto wallet in seconds. We support all major wallets including MetaMask, Trust Wallet, and more.',
+      description: 'Link your wallet with your $BRIAN tokens. Support for MetaMask, Trust Wallet, and all major Web3 wallets.',
       color: 'primary'
     },
     {
       step: 2,
       icon: Settings,
-      title: 'Configure Your Strategy',
-      description: 'Set your risk tolerance, trading pairs, and investment amount. Our AI will handle the rest based on your preferences.',
+      title: 'Choose Your Strategy',
+      description: 'Pick Baby Buys for trending visibility, Chart Builder for marketing, or Smart Pooling to lock tokens and earn yield.',
       color: 'accent'
     },
     {
       step: 3,
       icon: TrendingUp,
-      title: 'Start Earning',
-      description: 'Sit back and watch as Infinitus executes winning trades 24/7. Monitor your profits in real-time from the dashboard.',
+      title: 'Watch Your Token Grow',
+      description: 'Monitor trending positions, new holders, and community confidence. Track your investment and earnings in real-time.',
       color: 'primary'
     }
   ];
@@ -36,7 +36,7 @@ export const HowItWorks = () => {
             Get Started in <span className="gradient-text">3 Simple Steps</span>
           </h2>
           <p className="text-lg sm:text-xl text-muted-foreground max-w-2xl mx-auto">
-            From setup to profits in under 5 minutes.
+            From wallet connection to trending token in under 5 minutes.
           </p>
         </div>
 
@@ -93,20 +93,20 @@ export const HowItWorks = () => {
         {/* Stats Row */}
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6 mt-12 sm:mt-16 max-w-5xl mx-auto animate-fade-in-up animate-delay-300">
           <Card className="bg-card border-border p-4 sm:p-6 text-center">
-            <div className="text-2xl sm:text-3xl font-bold text-primary mb-1">5K+</div>
-            <div className="text-sm text-muted-foreground">Active Users</div>
+            <div className="text-2xl sm:text-3xl font-bold text-primary mb-1">2K+</div>
+            <div className="text-sm text-muted-foreground">Tokens Promoted</div>
           </Card>
           <Card className="bg-card border-border p-4 sm:p-6 text-center">
-            <div className="text-2xl sm:text-3xl font-bold text-accent mb-1">$50M+</div>
-            <div className="text-sm text-muted-foreground">Trading Volume</div>
+            <div className="text-2xl sm:text-3xl font-bold text-accent mb-1">$5M+</div>
+            <div className="text-sm text-muted-foreground">Locked in Pools</div>
           </Card>
           <Card className="bg-card border-border p-4 sm:p-6 text-center">
             <div className="text-2xl sm:text-3xl font-bold text-primary mb-1">24/7</div>
-            <div className="text-sm text-muted-foreground">Auto Trading</div>
+            <div className="text-sm text-muted-foreground">Visibility Tools</div>
           </Card>
           <Card className="bg-card border-border p-4 sm:p-6 text-center">
-            <div className="text-2xl sm:text-3xl font-bold text-accent mb-1">127%</div>
-            <div className="text-sm text-muted-foreground">Avg. ROI</div>
+            <div className="text-2xl sm:text-3xl font-bold text-accent mb-1">500%</div>
+            <div className="text-sm text-muted-foreground">Avg Growth</div>
           </Card>
         </div>
       </div>

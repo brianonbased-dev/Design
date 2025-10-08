@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Button } from '@/components/ui/button';
-import { X, Send } from 'lucide-react';
+import { X, TrendingUp } from 'lucide-react';
 
 export const StickyFooterCTA = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -34,10 +34,10 @@ export const StickyFooterCTA = () => {
             {/* Text Content */}
             <div className="flex-1 min-w-0">
               <div className="font-bold text-foreground text-sm sm:text-base mb-1">
-                Ready to start trading smarter?
+                Ready to make your token trend?
               </div>
               <div className="text-xs sm:text-sm text-muted-foreground">
-                Join 5,000+ traders using AI automation
+                Join 2,000+ projects using $BRIAN tools
               </div>
             </div>
 
@@ -46,9 +46,9 @@ export const StickyFooterCTA = () => {
               size="lg"
               className="bg-accent text-accent-foreground hover:bg-accent/90 font-bold tracking-wide whitespace-nowrap animate-pulse-glow shrink-0"
             >
-              <Send className="w-4 h-4 mr-2" />
-              <span className="hidden sm:inline">Launch Bot Now</span>
-              <span className="sm:hidden">Launch</span>
+              <TrendingUp className="w-4 h-4 mr-2" />
+              <span className="hidden sm:inline">Start Promoting</span>
+              <span className="sm:hidden">Promote</span>
             </Button>
 
             {/* Dismiss Button */}

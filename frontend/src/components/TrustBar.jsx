@@ -2,11 +2,11 @@ import React from 'react';
 
 export const TrustBar = () => {
   const partners = [
-    { name: 'Telegram', logo: '📱' },
-    { name: 'Ethereum', logo: 'Ξ' },
-    { name: 'Binance Smart Chain', logo: '⚡' },
-    { name: 'Polygon', logo: '◊' },
-    { name: 'Solana', logo: '◈' }
+    { name: 'DexTools', logo: '📊' },
+    { name: 'Uniswap', logo: '🦄' },
+    { name: 'PancakeSwap', logo: '🥞' },
+    { name: 'CoinGecko', logo: '🦎' },
+    { name: 'DexScreener', logo: '📈' }
   ];
 
   return (
@@ -14,7 +14,7 @@ export const TrustBar = () => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-8">
           <p className="text-sm sm:text-base text-muted-foreground uppercase tracking-wider">
-            Trusted By Traders • Powered By Leading Networks
+            Trending on Top DeFi Platforms • Powered by $BRIAN
           </p>
         </div>
         
