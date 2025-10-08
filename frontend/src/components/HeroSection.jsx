@@ -28,7 +28,7 @@ export const HeroSection = () => {
             </h1>
 
             {/* Subheadline */}
-            <p className="text-lg sm:text-xl text-muted-foreground leading-relaxed max-w-2xl mx-auto lg:mx-0">
+            <p className="text-lg sm:text-xl text-muted-foreground leading-relaxed max-w-2xl mx-auto">
               Infinitus helps tokens gain visibility across DeFi platforms. Create buying pressure with Baby Buys, build credibility with professional charts, and earn yield by locking liquidity.
             </p>
 
