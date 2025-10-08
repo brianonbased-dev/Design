@@ -8,23 +8,26 @@ export const Features = () => {
     {
       icon: Zap,
       title: 'Baby Buys',
-      description: 'Automatically execute small, strategic trades to test market conditions before committing larger positions. Minimize risk while maximizing opportunities.',
-      benefits: ['Risk Mitigation', 'Smart Entry Points', 'Automated Testing'],
-      color: 'primary'
+      description: 'Create trending visibility for your token with strategic small-volume buys. Generate buying pressure and boost your position on trending lists across DeFi platforms.',
+      benefits: ['Trending Visibility', 'Community Confidence', 'Strategic Marketing'],
+      color: 'primary',
+      investment: 'Investment Tool - Spend to Grow'
     },
     {
       icon: BarChart3,
       title: 'Chart Builder',
-      description: 'Visualize your trading data with powerful, customizable charts. Track performance, analyze trends, and make data-driven decisions in real-time.',
-      benefits: ['Real-time Analytics', 'Custom Indicators', 'Performance Tracking'],
-      color: 'accent'
+      description: 'Generate professional, shareable charts for your token. Perfect for marketing materials, social media, and community updates. Make your token look established and trustworthy.',
+      benefits: ['Professional Charts', 'Marketing Materials', 'Social Proof'],
+      color: 'accent',
+      investment: 'Marketing Tool - Spend to Promote'
     },
     {
       icon: Wallet,
       title: 'Smart Pooling',
-      description: 'Optimize liquidity provision across multiple DeFi protocols. Our AI finds the best yield opportunities and automatically rebalances your positions.',
-      benefits: ['Yield Optimization', 'Auto Rebalancing', 'Multi-Protocol Support'],
-      color: 'primary'
+      description: 'Lock your tokens in liquidity pools to earn passive yield. Boost community confidence by showing commitment while generating real returns. Win-win for holders and projects.',
+      benefits: ['Earn Yield', 'Build Confidence', 'Lock & Earn'],
+      color: 'primary',
+      investment: 'Earning Tool - Lock to Earn'
     }
   ];
 
@@ -34,10 +37,10 @@ export const Features = () => {
         {/* Section Header */}
         <div className="text-center mb-12 sm:mb-16 space-y-4 animate-fade-in-up">
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-black text-foreground">
-            Powerful Features for <span className="gradient-text">Smart Trading</span>
+            Powerful Tools for <span className="gradient-text">Token Growth</span>
           </h2>
           <p className="text-lg sm:text-xl text-muted-foreground max-w-2xl mx-auto">
-            Everything you need to automate and optimize your crypto trading strategy.
+            Everything you need to promote your token, build community confidence, and earn rewards.
           </p>
         </div>
 
@@ -60,6 +63,11 @@ export const Features = () => {
                 <h3 className="text-xl sm:text-2xl font-bold text-foreground mb-3">
                   {feature.title}
                 </h3>
+
+                {/* Investment Type Badge */}
+                <div className={`inline-block self-start bg-${feature.color}/10 border border-${feature.color}/30 rounded-full px-3 py-1 mb-4`}>
+                  <span className={`text-xs font-medium text-${feature.color}`}>{feature.investment}</span>
+                </div>
 
                 {/* Description */}
                 <p className="text-base text-muted-foreground leading-relaxed mb-6">
@@ -95,7 +103,7 @@ export const Features = () => {
             size="lg"
             className="bg-primary text-primary-foreground hover:bg-primary/90 hover:scale-105 font-bold text-base sm:text-lg tracking-wide px-8 py-6 sm:py-7 transition-transform"
           >
-            Get Started Now
+            Start Promoting Your Token
             <ArrowRight className="ml-2 w-5 h-5" />
           </Button>
         </div>

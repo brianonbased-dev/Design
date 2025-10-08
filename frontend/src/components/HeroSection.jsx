@@ -18,18 +18,18 @@ export const HeroSection = () => {
             {/* Badge */}
             <div className="inline-flex items-center space-x-2 bg-card/50 backdrop-blur-sm border border-primary/30 rounded-full px-4 py-2 animate-pulse-glow">
               <Sparkles className="w-4 h-4 text-primary" />
-              <span className="text-sm font-medium text-foreground">AI-Powered Trading</span>
+              <span className="text-sm font-medium text-foreground">Powered by $BRIAN</span>
             </div>
 
             {/* Headline */}
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-black leading-tight tracking-tight">
-              <span className="text-foreground">Trade Smarter with</span>{' '}
-              <span className="gradient-text text-glow-green">AI Automation</span>
+              <span className="text-foreground">Make Your Token</span>{' '}
+              <span className="gradient-text text-glow-green">Trend on DeFi</span>
             </h1>
 
             {/* Subheadline */}
             <p className="text-lg sm:text-xl text-muted-foreground leading-relaxed max-w-2xl mx-auto lg:mx-0">
-              Infinitusbot executes winning crypto trades 24/7. Advanced AI analyzes markets, identifies opportunities, and executes trades while you sleep.
+              Infinitus helps DeFi projects gain visibility, create buying pressure, and build strong communities. Promote your token with Baby Buys, professional charts, and earn yield by locking liquidity.
             </p>
 
             {/* CTA Buttons */}
@@ -38,7 +38,7 @@ export const HeroSection = () => {
                 size="lg" 
                 className="bg-primary text-primary-foreground hover:bg-primary/90 hover:scale-105 font-bold text-base sm:text-lg tracking-wide px-8 py-6 sm:py-7 animate-pulse-glow transition-transform"
               >
-                START FREE - NO CREDIT CARD
+                START PROMOTING - FREE TRIAL
                 <ArrowRight className="ml-2 w-5 h-5" />
               </Button>
               <Button 
@@ -46,7 +46,7 @@ export const HeroSection = () => {
                 variant="outline" 
                 className="border-2 border-accent text-accent hover:bg-accent/10 font-semibold text-base sm:text-lg px-8 py-6 sm:py-7 transition-all"
               >
-                Watch Demo
+                View Demo
               </Button>
             </div>
 
@@ -62,7 +62,7 @@ export const HeroSection = () => {
                 <div className="w-5 h-5 bg-primary rounded-full flex items-center justify-center">
                   <span className="text-primary-foreground text-xs">✓</span>
                 </div>
-                <span>5,000+ Active Traders</span>
+                <span>2,000+ Tokens Promoted</span>
               </div>
             </div>
           </div>
@@ -72,7 +72,7 @@ export const HeroSection = () => {
             <div className="relative rounded-2xl overflow-hidden border border-border shadow-2xl">
               <img 
                 src="https://images.unsplash.com/photo-1634542984003-e0fb8e200e91?w=800&h=600&fit=crop"
-                alt="Trading Dashboard"
+                alt="DeFi Trending Dashboard"
                 className="w-full h-auto object-cover"
               />
               {/* Overlay gradient */}
@@ -81,13 +81,13 @@ export const HeroSection = () => {
             
             {/* Floating stat cards */}
             <div className="absolute -bottom-6 -left-6 bg-card border border-primary/50 rounded-xl p-4 shadow-xl animate-pulse-glow hidden sm:block" data-testid="hero-roi-card">
-              <div className="text-2xl font-bold text-primary">+127%</div>
-              <div className="text-sm text-muted-foreground">Average ROI</div>
+              <div className="text-2xl font-bold text-primary">500%</div>
+              <div className="text-sm text-muted-foreground">Avg Token Growth</div>
             </div>
             
             <div className="absolute -top-6 -right-6 bg-card border border-accent/50 rounded-xl p-4 shadow-xl animate-pulse hidden sm:block" style={{animationDelay: '0.5s'}} data-testid="hero-24-7-card">
               <div className="text-2xl font-bold text-accent">24/7</div>
-              <div className="text-sm text-muted-foreground">Auto Trading</div>
+              <div className="text-sm text-muted-foreground">Visibility Boost</div>
             </div>
           </div>
         </div>

@@ -10,37 +10,40 @@ export const SocialProof = () => {
     {
       id: 1,
       name: 'Alex Chen',
+      role: 'DeFi Project Founder',
       location: 'Singapore',
       image: 'https://i.pravatar.cc/150?img=33',
-      quote: 'Infinitus has transformed my trading strategy. The AI makes decisions faster and smarter than I ever could.',
-      result: '+$47,000 in 3 months',
+      quote: 'Baby Buys helped us trend on DexTools for 3 days straight. The visibility brought in 500+ new holders and 10x our volume.',
+      result: '500+ New Holders',
       rating: 5
     },
     {
       id: 2,
       name: 'Sarah Mitchell',
+      role: 'Token Launch Consultant',
       location: 'New York, USA',
       image: 'https://i.pravatar.cc/150?img=45',
-      quote: 'I was skeptical at first, but the results speak for themselves. Best trading decision I ever made.',
-      result: '+$82,000 in 6 months',
+      quote: 'Smart Pooling is genius. Our community loves earning yield while showing commitment. Token price stabilized and confidence soared.',
+      result: '40% TVL Increase',
       rating: 5
     },
     {
       id: 3,
       name: 'Marcus Johnson',
+      role: 'Community Manager',
       location: 'London, UK',
       image: 'https://i.pravatar.cc/150?img=12',
-      quote: 'The 24/7 automation means I never miss an opportunity. It is like having a professional trader working for me around the clock.',
-      result: '+$63,000 in 4 months',
+      quote: 'Chart Builder makes us look professional. We use the charts in every announcement. Game changer for community trust and credibility.',
+      result: '2,000+ Chart Shares',
       rating: 5
     }
   ];
 
   const trustBadges = [
-    { icon: '✓', text: 'Verified Secure', color: 'primary' },
-    { icon: '🔒', text: 'Bank-Level Encryption', color: 'accent' },
-    { icon: '✓', text: 'Audited Smart Contracts', color: 'primary' },
-    { icon: '⚡', text: 'Lightning Fast Execution', color: 'accent' }
+    { icon: '✓', text: '$BRIAN Verified', color: 'primary' },
+    { icon: '🔒', text: 'Audited Contracts', color: 'accent' },
+    { icon: '✓', text: 'Community Owned', color: 'primary' },
+    { icon: '⚡', text: 'Instant Results', color: 'accent' }
   ];
 
   const nextTestimonial = () => {
@@ -57,10 +60,10 @@ export const SocialProof = () => {
         {/* Section Header */}
         <div className="text-center mb-12 sm:mb-16 space-y-4 animate-fade-in-up">
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-black text-foreground">
-            Trusted by <span className="gradient-text">5,000+ Traders</span>
+            Trusted by <span className="gradient-text">2,000+ Projects</span>
           </h2>
           <p className="text-lg sm:text-xl text-muted-foreground max-w-2xl mx-auto">
-            Real traders, real results. See what our community is saying.
+            Real projects, real growth. See what DeFi builders are saying.
           </p>
         </div>
 
@@ -97,9 +100,10 @@ export const SocialProof = () => {
                         "{testimonial.quote}"
                       </blockquote>
 
-                      {/* Name and Location */}
+                      {/* Name and Role */}
                       <div>
                         <div className="font-bold text-foreground text-lg">{testimonial.name}</div>
+                        <div className="text-sm text-accent">{testimonial.role}</div>
                         <div className="text-sm text-muted-foreground">{testimonial.location}</div>
                       </div>
 
