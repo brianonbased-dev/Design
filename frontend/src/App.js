@@ -10,6 +10,7 @@ import { HowItWorks } from "@/components/HowItWorks";
 import { FinalCTA } from "@/components/FinalCTA";
 import { Footer } from "@/components/Footer";
 import { StickyFooterCTA } from "@/components/StickyFooterCTA";
+import BabyBuysCalculator from "@/pages/BabyBuysCalculator";
 
 const LandingPage = () => {
   return (
@@ -33,6 +34,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<LandingPage />} />
+          <Route path="/baby-buys" element={<BabyBuysCalculator />} />
         </Routes>
       </BrowserRouter>
     </div>
